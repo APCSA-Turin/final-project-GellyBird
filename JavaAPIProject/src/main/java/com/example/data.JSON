@@ -1,0 +1,804 @@
+{
+  "html_attributions": [],
+  "next_page_token": "AXQCQNQkEBNok059rcdUv1qcTLCtMnFFcT2ptSBpHKSEECTUwjSXStyCkqjuhVEKIcWVpA_ZmwPNShwh1KVS0b8mV1cOnfzm7y4VUWqLdzbC2QGo5o-Lciq76AqAf3FTstO6PQIYiBCfuENYeh_Dx-y1x6IDHNR7jBRTk-I-Daz4dfQXfx4URY-JuwPPUr9kQySFGquJh1S8V50cd8M2sKCCXYsn15MAdHEThDzxTC8NmnH7nx_ZKJY-J_N8cCLUj0bjTDDitfs7vyH-JxOBgUZA64VNhQHRDkH1LnqMTBH3s6Wq9MT1v3L792ZzuBFNPjwpQHXEwzue4C7MRFDH1YuKHQcNoWWyiYDd4NEHBsEcJar1DCM5WxN2k9eYznBXKo-8PXEkcOox9yKzzar5Dky9ay0lHiY",
+  "results": [
+    {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "407 E Main St, Front Royal, VA 22630, United States",
+      "geometry": {
+        "location": { "lat": 38.9173696, "lng": -78.18959679999999 },
+        "viewport": {
+          "northeast": { "lat": 38.91873382989272, "lng": -78.18822412010728 },
+          "southwest": { "lat": 38.91603417010728, "lng": -78.19092377989273 }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/shopping-71.png",
+      "icon_background_color": "#4B96F3",
+      "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/shopping_pinlet",
+      "name": "Fleetwood Vintage",
+      "opening_hours": { "open_now": true },
+      "photos": [
+        {
+          "height": 4032,
+          "html_attributions": [
+            "\u003ca href=\"https://maps.google.com/maps/contrib/115852512574917997826\"\u003eA Google User\u003c/a\u003e"
+          ],
+          "photo_reference": "AXQCQNSbF5l3ZhMvijvwP272_WjVyuU6Gm3wpy_LHzqWZlBPvCnmFLWMJOO4-aQDSfWUWIHHSfkcy-lXhetCHHU-FPk7H1zHLFEpjaGomnSfIdkjhAxRU34JMz9jYYtRDhN5Jmb7Ty4b19qijTMno6En2F-gAmq7ID7iIyQgRCZ2DA4a7HG_SXlmXIuACc5zl_oNrIa3EkGgz9R4iQfPTddacN-Pp26_aM23zyk0cecGhUgdSUR-zyE5YpWIfM515Sre2UmmAG7Sle_jK1EEoJXp3UO86H6y3wWC0JofW8vnSCfGr5FwoqA",
+          "width": 3024
+        }
+      ],
+      "place_id": "ChIJgYpsiwXFtYkR32GNkRrV9Dk",
+      "plus_code": {
+        "compound_code": "WR86+W5 Front Royal, Virginia",
+        "global_code": "87C3WR86+W5"
+      },
+      "rating": 5,
+      "reference": "ChIJgYpsiwXFtYkR32GNkRrV9Dk",
+      "types": [
+        "clothing_store",
+        "store",
+        "point_of_interest",
+        "establishment"
+      ],
+      "user_ratings_total": 20
+    },
+    {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "143 N 21st St, Purcellville, VA 20132, United States",
+      "geometry": {
+        "location": { "lat": 39.1376224, "lng": -77.7156198 },
+        "viewport": {
+          "northeast": { "lat": 39.13898677989272, "lng": -77.71422242010728 },
+          "southwest": { "lat": 39.13628712010728, "lng": -77.71692207989273 }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/shopping-71.png",
+      "icon_background_color": "#4B96F3",
+      "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/shopping_pinlet",
+      "name": "It's Bazaar on 21st Street",
+      "opening_hours": { "open_now": true },
+      "photos": [
+        {
+          "height": 5487,
+          "html_attributions": [
+            "\u003ca href=\"https://maps.google.com/maps/contrib/118032616145262493853\"\u003e118032616145262493853\u003c/a\u003e"
+          ],
+          "photo_reference": "AXQCQNQGD9s-NYxy-9DLD_oDpHzGuObY4PuJ0d8ZQ2DatPWtwyMgJFIf11RmYPR8ST4pk_0DuoAH347qZMJWDPxxzkPIHy6kMWhwN7UCyQSLqDPsrNYnfdSpFDzLyPNitm0Yld3GwpXnz6ogcviwn3srAaJUsRE1UKTdF--RuUf1VN_N8Win_5E6BHPZqSPuVNZ6s1f2w5UYIDpFSzNeHCYErkJT6z507j56iG1Q3c5bY46Gwj3JLmTyhVVNTn15nsVxLY9nShWsnlNTIkEC3ApfHeYYXCXmQzxs8vr7pFL6Yl9x5TJ9zjZiqm2RmVsN7nZA_gg0flhCAymaueUob7EZPqmfZ8XqubopXeHJYPsG6pZknpUdKcycIsAkWyVQfVuUzcPrd1jS1ADziJ4Mimpwe_5HlVLgxicFIErEE_bpKvnQxYyVNEEcaFlWo_kTrdt2ro7fA5E_5gGhT1xo6rehBz7FKieQXiY2gXn6_rMFeB0lO0x4eWF8jEXMDRX7JxSjX2SpvUli5zxOWM8ZiU7OFOlrk1pk2GGaOfatgeoOCihNsmiuGmjbbtzWXQwxFZispsmCNROrk6b6KQ",
+          "width": 8222
+        }
+      ],
+      "place_id": "ChIJiT9XLEQQtokRTVu4nl0gfhk",
+      "plus_code": {
+        "compound_code": "47QM+2Q Purcellville, Virginia",
+        "global_code": "87F447QM+2Q"
+      },
+      "rating": 4.5,
+      "reference": "ChIJiT9XLEQQtokRTVu4nl0gfhk",
+      "types": [
+        "shopping_mall",
+        "home_goods_store",
+        "clothing_store",
+        "jewelry_store",
+        "store",
+        "point_of_interest",
+        "establishment"
+      ],
+      "user_ratings_total": 161
+    },
+    {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "300 Chatham Heights Rd #115, Fredericksburg, VA 22405, United States",
+      "geometry": {
+        "location": { "lat": 38.309652, "lng": -77.4474106 },
+        "viewport": {
+          "northeast": { "lat": 38.31103672989272, "lng": -77.44616737010728 },
+          "southwest": { "lat": 38.30833707010728, "lng": -77.44886702989272 }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/shopping-71.png",
+      "icon_background_color": "#4B96F3",
+      "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/shopping_pinlet",
+      "name": "Present & Past Treasures",
+      "opening_hours": { "open_now": true },
+      "photos": [
+        {
+          "height": 2432,
+          "html_attributions": [
+            "\u003ca href=\"https://maps.google.com/maps/contrib/110316339910176206258\"\u003eNadia Davis\u003c/a\u003e"
+          ],
+          "photo_reference": "AXQCQNT9U3khoq_0coGmiFMTeoK1Kp7GtSVhqxXdHy13lCysD3aljwv9VhH6AGY4tQX8Cn7FOGGJUjIZEVUHWOoS1B5Eyw-jqjtkQmKo8SQuLDt-K49fqCqmornV5DzxFF1wAB4og5uTDSDGHE73aDWnAWc8tubp0pekjpcN5syyOE3pEkRLg2VWMVWoyWN5N8f7I3bRIBrtDonTxZT0GaI5YIDZa4opy_9d09tJP0tXA4lS_neFHdJ1OTNDu24jWxXwL1NuTLPyOO0SLqeU-_kJwmUespCW32HDMERoRhWDdtGKk4ZYZ8TL-f-SDH-671NPa4CpIfMhETdMH_UQSa2JlNahV5q2TD1WEtpUnpA6zDt67yhRSEIZUAceQ9p7CaP9GrKxXaSNSXvfDpv6ZIKnYbEb46uBUGDcy8MMPV3DAK5HZ9vYy3oMHfQN-PhWHwK11w2nVsNj76YoCvvwdy_eapoBOtrlAkz3YZ36xrtIoA4oenKyjXxyL5-ZD8icX8AAIBGYy_GABimW1NHB4rj0y7j8R741PHO2Ia74bPFMmeco2oDGf2sk1vF8Vec4QV6K3yWyQMKg",
+          "width": 4320
+        }
+      ],
+      "place_id": "ChIJs8iL_OHptokRb3lYMgZ4p9s",
+      "plus_code": {
+        "compound_code": "8H53+V2 Fredericksburg, Virginia",
+        "global_code": "87C48H53+V2"
+      },
+      "rating": 4.6,
+      "reference": "ChIJs8iL_OHptokRb3lYMgZ4p9s",
+      "types": [
+        "furniture_store",
+        "home_goods_store",
+        "store",
+        "point_of_interest",
+        "establishment"
+      ],
+      "user_ratings_total": 31
+    },
+    {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "10414 Main St Suite 2, Fairfax, VA 22030, United States",
+      "geometry": {
+        "location": { "lat": 38.8463287, "lng": -77.3058996 },
+        "viewport": {
+          "northeast": { "lat": 38.84758097989273, "lng": -77.30459807010728 },
+          "southwest": { "lat": 38.84488132010728, "lng": -77.30729772989272 }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/shopping-71.png",
+      "icon_background_color": "#4B96F3",
+      "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/shopping_pinlet",
+      "name": "Lucy Loves",
+      "opening_hours": { "open_now": true },
+      "photos": [
+        {
+          "height": 3024,
+          "html_attributions": [
+            "\u003ca href=\"https://maps.google.com/maps/contrib/111620187705067965368\"\u003eA Google User\u003c/a\u003e"
+          ],
+          "photo_reference": "AXQCQNSgjezNcwbSH9m8dSwCgLmo0kL9K9aWoVVhRVn6_bqKfmXnvdF_DEasOdSTCebJ-91qhX8Pw7YNJw092_9cASQ8KBnaZpRQfU4oZJ7nlv2pbsLhstMsj6m00SBlaGbCB3_9ehukEfbyJb-Z8IOHmye2rt8lDB0d7iLK87o65Xqmr41DC-uYCpMC3bI11DaTYUEPbpXC6Z7JCvSGfKM4BCNEdwfRr027ZLGSBdIUmdklGF6Q9G6qTKrCs6FiwPfaAjxIhcQBdlicqcPWajhPc98g-GPQr_CAI28W2KmWrWjOV7TYd9Q",
+          "width": 4032
+        }
+      ],
+      "place_id": "ChIJ-9b34zZPtokRB2CTUGXwIKM",
+      "plus_code": {
+        "compound_code": "RMWV+GJ Fairfax, Virginia",
+        "global_code": "87C4RMWV+GJ"
+      },
+      "rating": 4.9,
+      "reference": "ChIJ-9b34zZPtokRB2CTUGXwIKM",
+      "types": [
+        "home_goods_store",
+        "clothing_store",
+        "store",
+        "point_of_interest",
+        "establishment"
+      ],
+      "user_ratings_total": 15
+    },
+    {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "250 W Broad St, Falls Church, VA 22046, United States",
+      "geometry": {
+        "location": { "lat": 38.8837569, "lng": -77.17318059999999 },
+        "viewport": {
+          "northeast": { "lat": 38.88505812989272, "lng": -77.17188947010727 },
+          "southwest": { "lat": 38.88235847010728, "lng": -77.17458912989272 }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/shopping-71.png",
+      "icon_background_color": "#4B96F3",
+      "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/shopping_pinlet",
+      "name": "Falls Church Antique Annex",
+      "opening_hours": { "open_now": true },
+      "photos": [
+        {
+          "height": 12000,
+          "html_attributions": [
+            "\u003ca href=\"https://maps.google.com/maps/contrib/111288428024602936528\"\u003eFiruze Oruç Bakır\u003c/a\u003e"
+          ],
+          "photo_reference": "AXQCQNSF9Gdgll6TPDMQQqtDW3726_dLFnVAt3yX4QTE6GNA724xTLgaJ-BZ43c6B_dN008_N2xAeBqruvz5YwoRmh_fj43ky27UhLKly5Pb-hAg_3o4ftzAQ_rzGuY0AhF_TAs4GJMXTh5ru2etZTRTQmargu8TGHzbBNKSaOvlK9B4NFFxmVuw-zlo2ESIxOCMjgpALcAdNgkaRl3ThFzpUzsE0EXgHB8whi5yW8cSJGEkZnDNps031qjNA2T0ZT8GcmQB5EhQ2bAexA1goD-n0wF5Oq_xNhgvxZpO1_2w-0ee0Y_VZBv_Hn4-GqC7Phes0nuF9bNHJQLVXDDM-0GWKMLQ0g1rFOPeUTPU3LXzFD06xlvY1rec_50mpDSioaomSfwukFi8fCMwEyOQxYQigxkwkqKX8j24ogbw8AZRHSLNI6-pgaZssi6GESWqDoZGP1XewucHVAfzNmGRyOGgBRzaQLi6QjNEhmiH26n37oT_tHQYsVC327aPX-BVC8cVlWvQ4cCSd3j0-5j6-prozVCmH4eIgnZgAsCow16NGP4BZp8TKE6NC7_Kb8ZePhlsWrC0BQ",
+          "width": 9000
+        }
+      ],
+      "place_id": "ChIJe1naucG0t4kRiZqXvzYBGSk",
+      "plus_code": {
+        "compound_code": "VRMG+GP Falls Church, Virginia",
+        "global_code": "87C4VRMG+GP"
+      },
+      "rating": 4.5,
+      "reference": "ChIJe1naucG0t4kRiZqXvzYBGSk",
+      "types": [
+        "home_goods_store",
+        "store",
+        "point_of_interest",
+        "establishment"
+      ],
+      "user_ratings_total": 79
+    },
+    {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "9126 Center St, Manassas, VA 20110, United States",
+      "geometry": {
+        "location": { "lat": 38.7510377, "lng": -77.4732836 },
+        "viewport": {
+          "northeast": { "lat": 38.75235197989271, "lng": -77.47192302010727 },
+          "southwest": { "lat": 38.74965232010727, "lng": -77.47462267989272 }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/shopping-71.png",
+      "icon_background_color": "#4B96F3",
+      "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/shopping_pinlet",
+      "name": "Totally Vintage Design",
+      "opening_hours": { "open_now": true },
+      "photos": [
+        {
+          "height": 640,
+          "html_attributions": [
+            "\u003ca href=\"https://maps.google.com/maps/contrib/108820047980127773164\"\u003eMelissa Harris\u003c/a\u003e"
+          ],
+          "photo_reference": "AXQCQNQ6uHc64rjwCKk_ecXo6j_idFbsYqskf86Lc7XaF87TIrhOEj5XWJyMP1aJ7D1LbbAD6foWsGBR39U9xaqu_BF9X82nljL6tWxrYsrdTs_TRXGz8SexmqMEQaGcfTQQ5QWaJRUWfRNl-7JrxRIh6beW6w928HZUX45VHQf2L_xSJf3UcPlHTkWuvEjoYHehNigDqlLm_umtAv9X8fDBpRKA0tK4W3cfX0Axqrc841b3dOQcfScfaDC69AQaVTdd9Osa5ZJi_8aA4BnK1PGHIW1rW31rCwrf1v1DaWiJkVTRIbfiU9Xeg-Aw_23wsN8c8DIvFBzEdz68INQrWj5iLvTlJy053PavjrbexEYZd1Hjr12lPh5chkT6ahnZk9AVtiwGx-IjjsCAULHfHIuk0vwBMaFyQ42q74JjHjxcwBbX_S4l8P72DZttOWqXM44WlI-w9SbkkhJ-c2LddIoZE57uO1NLOwW10juWBE1xpZeT3A8_SscGeMW-6lL5PGG7ZVAmBMcFbMy_PVjAXGq8nQrfuyRGK2a7_bsZ2SwpyLEImolpmRw04dKx5rXkWeCj8dt1NA",
+          "width": 750
+        }
+      ],
+      "place_id": "ChIJT662GnVctokRJE4JrLHMGyk",
+      "plus_code": {
+        "compound_code": "QG2G+CM Manassas, Virginia",
+        "global_code": "87C4QG2G+CM"
+      },
+      "rating": 4.7,
+      "reference": "ChIJT662GnVctokRJE4JrLHMGyk",
+      "types": [
+        "clothing_store",
+        "store",
+        "point_of_interest",
+        "establishment"
+      ],
+      "user_ratings_total": 26
+    },
+    {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "9200 Prescott Ave, Manassas, VA 20110, United States",
+      "geometry": {
+        "location": { "lat": 38.7552171, "lng": -77.46609649999999 },
+        "viewport": {
+          "northeast": { "lat": 38.75663097989272, "lng": -77.46458407010728 },
+          "southwest": { "lat": 38.75393132010727, "lng": -77.46728372989271 }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/shopping-71.png",
+      "icon_background_color": "#4B96F3",
+      "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/shopping_pinlet",
+      "name": "Vintage Swank",
+      "opening_hours": { "open_now": true },
+      "photos": [
+        {
+          "height": 3024,
+          "html_attributions": [
+            "\u003ca href=\"https://maps.google.com/maps/contrib/102050147269294019299\"\u003eA Google User\u003c/a\u003e"
+          ],
+          "photo_reference": "AXQCQNQli8EEl6OUe6_iDp647Pe07IXxFlTTp0jkoIsTtm4JvwMwJXTAbjYWTP72BkqqK_AExbRGEQqB3jJ0GkaovFu8VFmGe_MKs08kw_UisTr2ZyeSe6FBiTBvfgeESaic3PO1AGFTNKuVn9vsqGea5aOPULjy4L5ivPRUNx8WUsObfjnlqpktY4hfpZbvQCJRLbSoTGOiK9f89znf3r1nh1jN7W6kAyvRx6uCXVLJb0Pp7k0I22JpvJGMXJMaM4KZhupGXtHGzPDYAj8F87OSCuVjuSjeWFL9sjIh7UUVg3aa3yM8pXE",
+          "width": 4032
+        }
+      ],
+      "place_id": "ChIJfZBTGIlbtokRu7np15pXpns",
+      "plus_code": {
+        "compound_code": "QG4M+3H Manassas, Virginia",
+        "global_code": "87C4QG4M+3H"
+      },
+      "rating": 4.8,
+      "reference": "ChIJfZBTGIlbtokRu7np15pXpns",
+      "types": [
+        "clothing_store",
+        "store",
+        "point_of_interest",
+        "establishment"
+      ],
+      "user_ratings_total": 4
+    },
+    {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "11088 Washington Hwy, Glen Allen, VA 23059, United States",
+      "geometry": {
+        "location": { "lat": 37.7045976, "lng": -77.4649407 },
+        "viewport": {
+          "northeast": { "lat": 37.70592177989273, "lng": -77.46369362010728 },
+          "southwest": { "lat": 37.70322212010728, "lng": -77.46639327989271 }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/shopping-71.png",
+      "icon_background_color": "#4B96F3",
+      "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/shopping_pinlet",
+      "name": "Class and Trash Thrift Antiques",
+      "opening_hours": { "open_now": true },
+      "photos": [
+        {
+          "height": 1080,
+          "html_attributions": [
+            "\u003ca href=\"https://maps.google.com/maps/contrib/100215546447212614757\"\u003eDave Schubert\u003c/a\u003e"
+          ],
+          "photo_reference": "AXQCQNRlsDYfOEbSOc7swQHurrSjWmyi3yFlAXvXSg4khsT02sNC6CGBkMeVJZIHvWvKdLL4nzQtrguvDAVSvELqXrrYfanR1CLXd-_O-FSBuWBIFhJe7Zur9fWp8jChB2l587aZc-qrfA-7mdO__V7GmxJSSoSiXfGdFKjyU_SoCm2KSxaitGGV0Q601ej4suVkSVbzdUXVxmUBYUrP_R87o-_0HQze21qHgkzzjgiGqp-01qHHysjvuReitr22kbYdLFGGFG-pQQtZRSUmL0npEb4Ag9rzfjitNnBtYSF0R1xo3TtXnSuBI7qiwwGmMnLcyINQ8K69zHtPzdOUJO98gMhWp2HH4vDDJaBKeQpOoHcMhG3tnWS9zy0oO6XGc3JceS4D4E7FQ2b-mLAKmrvYLDEbM3o3NUb3-9GF2SNZCPUU1C7kZxR_oqXT7Cj7rmL-N8oJi9iJeeAQOenAv6VMIXhUNMv84rTXJxhwxrqdpWUIWJKbPTo0KHfHL0Woiv10tUkBZNj1y8FgfE5IFf65HcGHTm3wXyITPCC4VBemOkYwqqTUtCWOEOeC6EX2p9X7DJ0OmNrw",
+          "width": 1920
+        }
+      ],
+      "place_id": "ChIJN93kQiE8sYkRmvNX5Nlocoo",
+      "plus_code": {
+        "compound_code": "PG3P+R3 Glen Allen, Virginia",
+        "global_code": "8794PG3P+R3"
+      },
+      "rating": 4.3,
+      "reference": "ChIJN93kQiE8sYkRmvNX5Nlocoo",
+      "types": ["store", "point_of_interest", "establishment"],
+      "user_ratings_total": 107
+    },
+    {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "129 Commerce Square Pl, Gaithersburg, MD 20878, United States",
+      "geometry": {
+        "location": { "lat": 39.1222955, "lng": -77.2345734 },
+        "viewport": {
+          "northeast": { "lat": 39.12329292989272, "lng": -77.23370037010727 },
+          "southwest": { "lat": 39.12059327010728, "lng": -77.23640002989272 }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/shopping-71.png",
+      "icon_background_color": "#4B96F3",
+      "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/shopping_pinlet",
+      "name": "My Big Finds",
+      "opening_hours": { "open_now": true },
+      "photos": [
+        {
+          "height": 854,
+          "html_attributions": [
+            "\u003ca href=\"https://maps.google.com/maps/contrib/108438065935469839671\"\u003eMy Big Finds\u003c/a\u003e"
+          ],
+          "photo_reference": "AXQCQNRfHIJpY_wvyKTp2Da9Y7bN_uTcnGfY3yeESaVsH69icHsn7Hbc_iEYBzYEc3RhJUHQxnznfurqESPzt-FYKRw9RPdTz0o4dKwf6_Kxgm026_n_GVjV9JMuM2ixK50q1PyAWO2tNdmoJ6otVAhhcaEmUVIewlu3HsjVMQdnEPR2EGGvx6E-25IOaaUojRviMZL4hd1wL3V4BIss50yyVvXCCyE085PM8rzsAgMEanpMkaK72ZOxCh3aUvHTyiCML_XINgIJAhdUcC1XcZdbfGb8gPIYiGRXnyw1QBOGZO7zd3PzQ7k",
+          "width": 1280
+        }
+      ],
+      "place_id": "ChIJDXt7bHkttokRenlO6b4DUoM",
+      "plus_code": {
+        "compound_code": "4QC8+W5 Gaithersburg, Maryland",
+        "global_code": "87F44QC8+W5"
+      },
+      "rating": 4.8,
+      "reference": "ChIJDXt7bHkttokRenlO6b4DUoM",
+      "types": ["store", "point_of_interest", "establishment"],
+      "user_ratings_total": 77
+    },
+    {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "11 Egges Ln, Catonsville, MD 21228, United States",
+      "geometry": {
+        "location": { "lat": 39.2721951, "lng": -76.734464 },
+        "viewport": {
+          "northeast": { "lat": 39.27362267989272, "lng": -76.73305032010728 },
+          "southwest": { "lat": 39.27092302010728, "lng": -76.73574997989272 }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/shopping-71.png",
+      "icon_background_color": "#4B96F3",
+      "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/shopping_pinlet",
+      "name": "Objects Found",
+      "opening_hours": { "open_now": true },
+      "photos": [
+        {
+          "height": 3036,
+          "html_attributions": [
+            "\u003ca href=\"https://maps.google.com/maps/contrib/108169177113093004589\"\u003eAdel Wolf\u003c/a\u003e"
+          ],
+          "photo_reference": "AXQCQNQidwRPwLe4tFHcYP9vvqtar2DufDmFhyWuTiKPXtCnNtsSRR4QnKy2xUS9llmGlzHTgdjzb4PYOuBeO2SzC3aAajMjAYp-gTVElWW7GoHgZJQ9Sk3XvhsJ5jj1wSbymea2rb5md7v9q6HSZfnDuRIDtgFq9SJGcGpdvfUi4pt5pKo4ksGGfCZF1Y1nNae9MlC-qmqGnsNJiqUobTohkMSdIJ0O1s3zfD6JIZanyXGVIh_BtdQ74aEI5BOlrESHpmjMYKK6JnRKS6m_-SefzxXGKPo4fUyT3Y7WZ98I0vZ0MykJUyab3I-M8L9XTlCYLnmc8ZC23QZHnJZPbhPrqV5vEvS9bA4DEy3YCJphhr3SJpFvqIWUr7HyN1OOlJShkIq6l5wZKCKMJ9VboOEL-0w1oI3m_8A4R0YcnWYDoK8-ZUheT-FkWw0ejRZPvbCmZgDGleHo9Ugo-FRgocjVXlOxVjI-i8vlLOYYZ3j8PTP8TF-KUQw9YqQO-wfF4N0GKYSUFMNU_1momPdlqZ6KFKywY7aEzv3s2icsKOMMZcr0dU3akoDGfQ44NGFiVLltyxvRWQ",
+          "width": 4048
+        }
+      ],
+      "place_id": "ChIJBUeHTp0eyIkRdMMqXyjQQ9Q",
+      "plus_code": {
+        "compound_code": "77C8+V6 Catonsville, Maryland",
+        "global_code": "87F577C8+V6"
+      },
+      "rating": 4.6,
+      "reference": "ChIJBUeHTp0eyIkRdMMqXyjQQ9Q",
+      "types": [
+        "home_goods_store",
+        "store",
+        "point_of_interest",
+        "establishment"
+      ],
+      "user_ratings_total": 154
+    },
+    {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "105 5th St SE, Charlottesville, VA 22902, United States",
+      "geometry": {
+        "location": { "lat": 38.029476, "lng": -78.47877579999999 },
+        "viewport": {
+          "northeast": { "lat": 38.03081007989272, "lng": -78.47737592010728 },
+          "southwest": { "lat": 38.02811042010728, "lng": -78.48007557989271 }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/shopping-71.png",
+      "icon_background_color": "#4B96F3",
+      "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/shopping_pinlet",
+      "name": "Low - Vintage Clothing, Records & Antiques",
+      "opening_hours": { "open_now": true },
+      "photos": [
+        {
+          "height": 3072,
+          "html_attributions": [
+            "\u003ca href=\"https://maps.google.com/maps/contrib/103845405448839086823\"\u003eAlex Smith\u003c/a\u003e"
+          ],
+          "photo_reference": "AXQCQNTYGtwJupDa3GlqFKDLXofZFa_6TEAqlmnE9jjVgm3T7tfP_kZXDP-poas_t6EbX8lXbWS64MagM4xAiq2af9qVltxTThEVX8A8f1zSKdZKvvHSfjfXIv65-UhL2EGOKb4N0XfMdfNk8B-ix2-4aLu2NN8esEPQF6oWUC_SXcmyzZZdLuonLcp5pm6_EZ7f7iY8hBPOM-4QxJJoigGCYp8gJYFU8Zr00VwnP-n618Fvkymhck_LIz2ZxDyTu6_VJCxPzJtjl2oNUC7F3Bmbbe3TfSXFGUANfn3nsQmRxv6p1I8cIXbucEeXjK-aoBwy7g7wZ4W958wuU1Uq97gCaiXWvdAX9KyWmUwLWHschDOFpecD2sNvNybszznH3nBdrhV_iHpO44L-Cnk0fYsOBDVT5xv-44f0n3yIsrcWkzJil4zaLs8OP2-8eVC6_hwpldJK3mKbtgQ9imH_sDx7coih93mdmaubgr_wrS7U8903Mx3QibeIhgLtnzX8REO0bi4U3gCF8SyKU05sOP8mzbQUOypp2AxU6AFskRQF48sBj1HXPquYSOiz8HfiUQSpWgPT0emIZq3f1Q",
+          "width": 4096
+        }
+      ],
+      "place_id": "ChIJT16A6CaGs4kRIC7Yfd2n1PI",
+      "plus_code": {
+        "compound_code": "2GHC+QG Charlottesville, Virginia",
+        "global_code": "87C32GHC+QG"
+      },
+      "rating": 4.6,
+      "reference": "ChIJT16A6CaGs4kRIC7Yfd2n1PI",
+      "types": [
+        "home_goods_store",
+        "clothing_store",
+        "store",
+        "point_of_interest",
+        "establishment"
+      ],
+      "user_ratings_total": 39
+    },
+    {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "14343 Spotswood Trail, Ruckersville, VA 22968, United States",
+      "geometry": {
+        "location": { "lat": 38.2342122, "lng": -78.3790898 },
+        "viewport": {
+          "northeast": { "lat": 38.23535327989272, "lng": -78.37758742010729 },
+          "southwest": { "lat": 38.23265362010728, "lng": -78.38028707989274 }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/shopping-71.png",
+      "icon_background_color": "#4B96F3",
+      "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/shopping_pinlet",
+      "name": "Rummage 33",
+      "opening_hours": { "open_now": true },
+      "photos": [
+        {
+          "height": 4032,
+          "html_attributions": [
+            "\u003ca href=\"https://maps.google.com/maps/contrib/113808194282147745981\"\u003eMarie Gordon\u003c/a\u003e"
+          ],
+          "photo_reference": "AXQCQNQMVHDuE-JYOTvbNkdmV-EaFvzQPSbm0qfkk6teqU-guLKJ8AXTloftFxnbel-rZ-HR9SOOhQY4z86GBkH_XpJ-m4ehUGOPMM7xhGoLYIix_C5mEaDKM6Go1h5_DyHXEC7Mgin5NB_Qp7X4x-2k5zbKK33DpKef-bmc5DgtWc0rsFH9Xjt2YHsOXd8aLNVZIFPuL_XzTD35dGOFtShE4JW6GnCCQyOY1Oxi5TOPbtb76n0MR8hi32yC7mKesSEaXtGAWuIkZGsI61Uuw-lahB2yn1pICE9UWIlq9AAD8GSHdXq7d0fofZ2QssDoyLgtonG_Lpwx56itudI9U5DOhwfp_88cKksk5DV-kpd5wBK0m9E1XB4vpRiHdPx9C-ni7kXtPu4r-63s47S-NrEU1dsqhGla-NPfWZfJRhfdgM-FYnHpSwzn-mSx0xC3z3Y-J9Xfid5caRDH5ZYr18j6odEO_Cg8uzt5RNTGF2g6tIx4l4sRYwYzT5ho_LBEgQZwfOUnuq0fRuVcr0sCc-fX1f-Aj8nQYvFDdzIfXYc3SUgS1rpifq377_ga-wKaMnoCM8nU2zJc",
+          "width": 3024
+        }
+      ],
+      "place_id": "ChIJ67b7mtRztIkRchgK7aJD_lM",
+      "plus_code": {
+        "compound_code": "6JMC+M9 Ruckersville, Virginia",
+        "global_code": "87C36JMC+M9"
+      },
+      "rating": 4.7,
+      "reference": "ChIJ67b7mtRztIkRchgK7aJD_lM",
+      "types": [
+        "home_goods_store",
+        "store",
+        "point_of_interest",
+        "establishment"
+      ],
+      "user_ratings_total": 46
+    },
+    {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "1028 S Charles St, Baltimore, MD 21230, United States",
+      "geometry": {
+        "location": { "lat": 39.27721469999999, "lng": -76.6146797 },
+        "viewport": {
+          "northeast": { "lat": 39.27856452989271, "lng": -76.61332987010726 },
+          "southwest": { "lat": 39.27586487010727, "lng": -76.61602952989271 }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/shopping-71.png",
+      "icon_background_color": "#4B96F3",
+      "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/shopping_pinlet",
+      "name": "Vanessa Vintage Treasures",
+      "opening_hours": { "open_now": true },
+      "photos": [
+        {
+          "height": 3668,
+          "html_attributions": [
+            "\u003ca href=\"https://maps.google.com/maps/contrib/104112749626220879052\"\u003eTravels Withadiplomat\u003c/a\u003e"
+          ],
+          "photo_reference": "AXQCQNSniLr1NCB8oBiU0h4tS60CsD3VshqwmXOwEHmnbFZcHFwWQ-4F0pmxuzmyOLggynCeMJDkntep6iXlusiZ_zZujNg-Sk1Rse73NE57Lko8dtKjXaNbMRihl-2CSFhUDLx7Nt084FZY4M7800eOlYTmDIOX2eVQGesqjmpfZez20ni9mLSl-4nweA3o5zS06j01o65Tt5rdWi0jm3xNv2u6sJbvrN0s4sBZ5VBW2zGSMMMO9lXMRiLCoLurFElPX7k10cDhnGUZd38j-yDiERSGd3ba0FAAHyVRn2uhUPKIlnHm6a-OC0EhK5liIIU16W47pT6FuDqcNtzc8Who2wBhZy_jUM0M91x1Ndj21pa75fuAu18mKtGJxH2h8icU2lzYzftfC07IlTMFCr8g1rygkLFic3iczIAA78Bv7J4u459P7ASDjc0IPIhzDOVbDRxWwxAPYs8UlPNuvCsNQNMFdk_hncPaOr57vATRptT0Ct8vwoDrpq525jZffw7nSkqL4YHKC9OhHFeykjAgp6l3jKQD83V8yBqwIZZX6nQ-ETW_01GaUalJrbwu6oOfB6FTHsMA",
+          "width": 2184
+        }
+      ],
+      "place_id": "ChIJOavQ72gDyIkRnlLexpsX4lY",
+      "plus_code": {
+        "compound_code": "79GP+V4 Baltimore, Maryland",
+        "global_code": "87F579GP+V4"
+      },
+      "rating": 5,
+      "reference": "ChIJOavQ72gDyIkRnlLexpsX4lY",
+      "types": [
+        "home_goods_store",
+        "store",
+        "point_of_interest",
+        "establishment"
+      ],
+      "user_ratings_total": 49
+    },
+    {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "3750 and, 3760 Howard Ave, Kensington, MD 20895, United States",
+      "geometry": {
+        "location": { "lat": 39.027601, "lng": -77.07388499999999 },
+        "viewport": {
+          "northeast": { "lat": 39.02897867989272, "lng": -77.07248117010727 },
+          "southwest": { "lat": 39.02627902010728, "lng": -77.0751808298927 }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/shopping-71.png",
+      "icon_background_color": "#4B96F3",
+      "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/shopping_pinlet",
+      "name": "Joyful Heart Reclaimed",
+      "opening_hours": { "open_now": true },
+      "photos": [
+        {
+          "height": 2140,
+          "html_attributions": [
+            "\u003ca href=\"https://maps.google.com/maps/contrib/103563013752036920898\"\u003eA Google User\u003c/a\u003e"
+          ],
+          "photo_reference": "AXQCQNTZD7mjBaxdSsqGy69NLFwUflAYgJS3ROFcs-w9LzXj8UpUUEnFJ3X9W_aapH8tGwuXspXlLTa2lnTj7lP6xbQ1K0_6o7Yk1jnzK82Ku4sdY_IjpfZhd2zXZlde-ghwPQNtTofFAQK-1vutHamVvGnrLCjcR4wQN8uNYiz9gFT_pGpUIV-DKVNzxzW1ecjHZy80y1E1xHdc0olaHyW_c5XXpnLYbV0hQRI-_0YGRFsLL-op9nvfbNUK3Wb9hv0eWsHZyAeImvpccy2_sO4-mZkE95V77ZXUG4xtYV5WzTyrctmCSJI",
+          "width": 3448
+        }
+      ],
+      "place_id": "ChIJz6gmT0rPt4kRllZlkLXZXfI",
+      "plus_code": {
+        "compound_code": "2WHG+2C Kensington, Maryland",
+        "global_code": "87F42WHG+2C"
+      },
+      "rating": 4.9,
+      "reference": "ChIJz6gmT0rPt4kRllZlkLXZXfI",
+      "types": [
+        "furniture_store",
+        "home_goods_store",
+        "store",
+        "point_of_interest",
+        "establishment"
+      ],
+      "user_ratings_total": 19
+    },
+    {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "2606 Lafayette Blvd, Fredericksburg, VA 22408, United States",
+      "geometry": {
+        "location": { "lat": 38.2725099, "lng": -77.4831415 },
+        "viewport": {
+          "northeast": { "lat": 38.27380867989272, "lng": -77.48169717010727 },
+          "southwest": { "lat": 38.27110902010728, "lng": -77.48439682989272 }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/shopping-71.png",
+      "icon_background_color": "#4B96F3",
+      "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/shopping_pinlet",
+      "name": "Lisa's Finders Keepers",
+      "opening_hours": { "open_now": true },
+      "photos": [
+        {
+          "height": 2436,
+          "html_attributions": [
+            "\u003ca href=\"https://maps.google.com/maps/contrib/109386117824266107065\"\u003eA Google User\u003c/a\u003e"
+          ],
+          "photo_reference": "AXQCQNRv24JCmuc--RVBZaDtzH5eKmWy_vT3hVB0K6yjK-fWNLJGGmR1_ugPdsPkrTyLFpMok8q1UPaMxbQxqZFXFdG55quQNWzoXbbhQB6fUX1ncxkcIR2ZnzYy8JfntQ2lZ4emUWiwS_8AvZ1gzdoraEnq4nDswXaH1OuV6aooNuQ8VQNuo5sltOaxr0NeeqaLnjFAXxB1BIJMausTmuT8FPZ-vjgjTsnVhopvAXuubOR0NxJiDbfulLe1ehZ85QJ7ucW6t3Goip6ndrTxTF8igwDcqB2-RVJH9GZ8z6UxW6nweHecXkY",
+          "width": 1125
+        }
+      ],
+      "place_id": "ChIJOVmNwHfBtokR0jvH4g6lo1k",
+      "plus_code": {
+        "compound_code": "7GF8+2P Fredericksburg, Virginia",
+        "global_code": "87C47GF8+2P"
+      },
+      "rating": 4.8,
+      "reference": "ChIJOVmNwHfBtokR0jvH4g6lo1k",
+      "types": [
+        "home_goods_store",
+        "store",
+        "point_of_interest",
+        "establishment"
+      ],
+      "user_ratings_total": 36
+    },
+    {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "69 Maryland Ave, Annapolis, MD 21401, United States",
+      "geometry": {
+        "location": { "lat": 38.9796973, "lng": -76.4899113 },
+        "viewport": {
+          "northeast": { "lat": 38.98106007989272, "lng": -76.48858037010729 },
+          "southwest": { "lat": 38.97836042010728, "lng": -76.49128002989274 }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/shopping-71.png",
+      "icon_background_color": "#4B96F3",
+      "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/shopping_pinlet",
+      "name": "Evergreen Antiques & True Vintage",
+      "opening_hours": { "open_now": true },
+      "photos": [
+        {
+          "height": 4032,
+          "html_attributions": [
+            "\u003ca href=\"https://maps.google.com/maps/contrib/101171899384567190104\"\u003eAndy Feliciotti\u003c/a\u003e"
+          ],
+          "photo_reference": "AXQCQNRvc5lhqAg0zybpjc95v1ienZswlqSh6TrRkEyOFhtbj4GTqGVgw_lYvRc24qpwfeOB64Gyb83rzponVFILzv4vY8JA7ZJ7_sogvLJqrMjG4nRuSUR7lYxijN-m85yaJe7gsXS0qYh_0-yvwZv6GBTUp5E8mzAcm9BXWAmHNEnSW3DnXnt932z5cR3GwTcco-7XgijLCUFXlZlLWhqv6Ke5QlapG65mPhMWTkigNZZsQ7uVuE7tDn0Rb-gv6i3bXXlhzvoOZ0FUzF7ar5XIR3WtqM4cXKymYq1flNrC4iLE3SsfSfnSUIa2MAS9yborosP_I4erhIf_Rz_mxvbOR66UfqdA_J0ncxLD2Oih1pTfcyhCplil7dN2XGPuc6fZKGPvt30IXxXv6PkR4IlY-KPKJjjAcEQkNWvaTq8H3SxldB2kWUHOpt4yTwvfLu2MhgHgDQndgbgurON-xvsen8L-ULR8-nb8mpJood6hypBYt2s-nm6agwzFIkUY5CSxWMaHDaUtonguuhZuCMJUgjF5hK6sg058yVAS98rEI4AFcYkl3nzQanyTlxHyBaF90-Vt2Fc3oktZcw",
+          "width": 3024
+        }
+      ],
+      "place_id": "ChIJpfe-M072t4kRwT2aDDBedRU",
+      "plus_code": {
+        "compound_code": "XGH6+V2 Annapolis, Maryland",
+        "global_code": "87C5XGH6+V2"
+      },
+      "rating": 4.7,
+      "reference": "ChIJpfe-M072t4kRwT2aDDBedRU",
+      "types": [
+        "furniture_store",
+        "home_goods_store",
+        "clothing_store",
+        "store",
+        "point_of_interest",
+        "establishment"
+      ],
+      "user_ratings_total": 44
+    },
+    {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "800 S Battlefield Blvd, Chesapeake, VA 23322, United States",
+      "geometry": {
+        "location": { "lat": 36.6975354, "lng": -76.2340019 },
+        "viewport": {
+          "northeast": { "lat": 36.69896212989272, "lng": -76.23274352010728 },
+          "southwest": { "lat": 36.69626247010728, "lng": -76.23544317989271 }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/shopping-71.png",
+      "icon_background_color": "#4B96F3",
+      "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/shopping_pinlet",
+      "name": "VA Vintage",
+      "opening_hours": { "open_now": true },
+      "photos": [
+        {
+          "height": 1440,
+          "html_attributions": [
+            "\u003ca href=\"https://maps.google.com/maps/contrib/113924849347675126785\"\u003eLauree Waldrop\u003c/a\u003e"
+          ],
+          "photo_reference": "AXQCQNTimpsMBqfJYz0u1vhSpQ29Os-wTghGIIv2Iu2WVghXCJEnZSunQRrUFQ-4He2Td6_BBAG7OxVxaGNbEwEPYQHmylFwG-xjmAGlJGXM2KAtZY9ry1G13gjBOvpWLQlJSyPd7skBkKWBGXlHQwGlaaQGWlW1E9Brn65AyRelq3dSEaC6MT2JDHLct_-RQ8Cn_jZ4nnEZKRjQxei_3gCVOgeoOi8riivPj9keJcwg9lBUbYUvPadUhLW5Mivtoz4xGS9aUtdGfjEXZlpGbzRcRNJNFVRkubEkd9LD0_mDw3Uv0jd5GDvonICkUlIkpfglmqqpNUy9-vPxwKL-N2ogofV3aP8EoC1JcGdxfgrWVIdKvHOo3fXQnUMh2qeNR3eZy3XXZcVioAEJk5iRxBb9wQvHxcpN_YRobSvzjL_Sff4HF4dnPPIYq2g09UKAkTFbSXYh_Oj1yxnQjADn6YpMXHSMpDHCFvdhFl9w1Oo-c9l4uFnQkY7XKeAcKHrXmvGFHNXYnBiJEFM-98A_GgkiZbUqPGgVgj3SzWUhM0fOI2Mv9L0p8zkHY7ilThYKFK5xMvP75P-JevFD7WWqfuh0QNFZVq4J8Q",
+          "width": 1080
+        }
+      ],
+      "place_id": "ChIJkwMKMtW7uokRE-QbtogHJIo",
+      "plus_code": {
+        "compound_code": "MQW8+X9 Chesapeake, Virginia",
+        "global_code": "8785MQW8+X9"
+      },
+      "rating": 4.9,
+      "reference": "ChIJkwMKMtW7uokRE-QbtogHJIo",
+      "types": ["store", "point_of_interest", "establishment"],
+      "user_ratings_total": 30
+    },
+    {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "1830 Columbia Rd NW, Washington, DC 20009, United States",
+      "geometry": {
+        "location": { "lat": 38.9218255, "lng": -77.0431753 },
+        "viewport": {
+          "northeast": { "lat": 38.92319107989272, "lng": -77.04189192010728 },
+          "southwest": { "lat": 38.92049142010728, "lng": -77.04459157989271 }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/shopping-71.png",
+      "icon_background_color": "#4B96F3",
+      "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/shopping_pinlet",
+      "name": "Miss Pixie's",
+      "opening_hours": { "open_now": true },
+      "photos": [
+        {
+          "height": 3036,
+          "html_attributions": [
+            "\u003ca href=\"https://maps.google.com/maps/contrib/114967084591497675620\"\u003eKate Wackerle\u003c/a\u003e"
+          ],
+          "photo_reference": "AXQCQNTw3-Z-s27kLpgFRbCixssWMK4vpmRYBNyW3JLcvXXgZuAaBCGwNGvE6Rw8niqzdMSrVFhlS1UDlNJ89_mPPv-2WFNurGy1VKusZL8-eJUgBRuqMbHB9NO4xXImEjW66tDZQ-7VaX0hbLnh9pC0zq315C1aB14eOxpk8wfwpEhJ_9_uBP_2-Jf81nM_MwMLWjFS9wlynu0hIrSB03-gKpSk526Jspom0le1b7_Q73SRk4KwrLZBasE5vr16niW7MxDEXQimqPmKVCkjQGzzU45PXVz6TQ1BjjeHCZtnf3owHKl6NnmjN9UpJBF3dCxSZi3hJmUqMPk_jQWVJbrCo2T82i-fuiObU9p2cJfJaZ306KgH_8ZgAMDcUIrKigBsLx4CK6i5WAPF3LgU4-2jWE--ntu2HuDcIZjkSaYa1gVHgUlrpbEB-li8nygeIV8L0RQmSKGyyxe3ouhzujUs14kEIL5DkAkU4_Cu9ZvPXP29V6g-tw06b-MKFWtkgZo_Mu-WxyizchPN3nc9E_RBN4RCdTtCZp2hRS-WkRkQdhDyQItXngqsi-oC7Cfeo3d4_E-b7Mry",
+          "width": 4048
+        }
+      ],
+      "place_id": "ChIJ5_D26um3t4kR0XU6982GpwQ",
+      "plus_code": {
+        "compound_code": "WXC4+PQ Washington, District of Columbia",
+        "global_code": "87C4WXC4+PQ"
+      },
+      "price_level": 3,
+      "rating": 4.4,
+      "reference": "ChIJ5_D26um3t4kR0XU6982GpwQ",
+      "types": [
+        "furniture_store",
+        "home_goods_store",
+        "store",
+        "point_of_interest",
+        "establishment"
+      ],
+      "user_ratings_total": 129
+    },
+    {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "16650 Georgia Ave, Olney, MD 20832, United States",
+      "geometry": {
+        "location": { "lat": 39.1299171, "lng": -77.07179549999999 },
+        "viewport": {
+          "northeast": { "lat": 39.13122997989272, "lng": -77.07040707010728 },
+          "southwest": { "lat": 39.12853032010727, "lng": -77.07310672989273 }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/shopping-71.png",
+      "icon_background_color": "#4B96F3",
+      "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/shopping_pinlet",
+      "name": "Olney Antique Village, LLC",
+      "opening_hours": { "open_now": true },
+      "photos": [
+        {
+          "height": 3024,
+          "html_attributions": [
+            "\u003ca href=\"https://maps.google.com/maps/contrib/113728011717086087757\"\u003eA Google User\u003c/a\u003e"
+          ],
+          "photo_reference": "AXQCQNRiz7EistyT0AiX_IYzhkhY8L4bHpYg0j3fRkfwGI1iuRwUkchZkQO2HQSTiZBWnQBaht4JrR63kbUD21qf61vwOZOOx-QkdrhlN1fTXjaUYUqn66JapHdas0R_kXGZ3mGUNw174Oq3_NbymJNw2VaqffwKrnFY9TQdAgHtmZjTvzD4RHRAJUHwkuOUm4zi8urjFUvFHoba7WE84Xay6a6mP4WTynw3Pt8O8I4TJiqsW0PwCuvALuqsvASGJF5xc36LbSLbGBNJCRc65WHHAAkv1ylKq85UY9SZgTsaby-WUDBX10mcmdB5E2P0CvJZjWDksl_mr5cKsbRyAssUVyiBW9B8ugYyNF1kRtx-xC1d8pmQiBqoAUt6cHn63K6xTUy7gPOWGGEiHkRfeFEgaWJ90nOvoMy4xQrraF9g0RyXMAlYf2CIt8HSprc7QtNb1iHpiSYTzdYRq-KlYZn_8eium_sA9hJ8F5AFHv8gk8tyuPS_keMf27M6XjW3ZOtFUf3U2B_fWhXWAY8vCHhUekf4gn90jz4s7LEPIj94nA81Clak26lwrUC5IaYZXlbBOW3qRZz0",
+          "width": 4032
+        }
+      ],
+      "place_id": "ChIJM5n4Lk_VyYkRbiXEuM9iZUI",
+      "plus_code": {
+        "compound_code": "4WHH+X7 Olney, Maryland",
+        "global_code": "87F44WHH+X7"
+      },
+      "rating": 4.4,
+      "reference": "ChIJM5n4Lk_VyYkRbiXEuM9iZUI",
+      "types": [
+        "home_goods_store",
+        "store",
+        "point_of_interest",
+        "establishment"
+      ],
+      "user_ratings_total": 94
+    },
+    {
+      "business_status": "OPERATIONAL",
+      "formatted_address": "406 W Spotswood Trail C, Elkton, VA 22827, United States",
+      "geometry": {
+        "location": { "lat": 38.408138, "lng": -78.6250096 },
+        "viewport": {
+          "northeast": { "lat": 38.40935717989272, "lng": -78.62369477010726 },
+          "southwest": { "lat": 38.40665752010727, "lng": -78.62639442989271 }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/shopping-71.png",
+      "icon_background_color": "#4B96F3",
+      "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/shopping_pinlet",
+      "name": "Steadfast Vintage",
+      "opening_hours": { "open_now": true },
+      "photos": [
+        {
+          "height": 2268,
+          "html_attributions": [
+            "\u003ca href=\"https://maps.google.com/maps/contrib/105569945954576421600\"\u003eSteadfast Vintage\u003c/a\u003e"
+          ],
+          "photo_reference": "AXQCQNRVObTI-UKVXYvOeNfOdqHQt-gVmF78Ur5pk5WYf9UsaWFdusfpfpbehU8pqfgYi3ZUhG3n284n8_znxbGTNHDVSAK_A7O9Eld3ZQbwEy8xPCjXFxcVNtWaWf9TW-LgQsvOuGo9WGBMnAKf_7iWsAmD9cQX4yyqNdfg65m2_FepuaZIYg3fme5npYKpb6A9Hdl6HE5Zu2xo3ftxOkUx4IQcIhUb0CWPrZhCnyiPLXBO19nYD-0ucZr-WiHIv-E6qMPo-bt8hF5qPv8L47qTE_0iyzC5ucFEqN-Qf9bzXFYLQqAW",
+          "width": 4032
+        }
+      ],
+      "place_id": "ChIJieZWxFphtIkRSOuLw3furGQ",
+      "plus_code": {
+        "compound_code": "C95F+7X Elkton, Virginia",
+        "global_code": "87C3C95F+7X"
+      },
+      "rating": 5,
+      "reference": "ChIJieZWxFphtIkRSOuLw3furGQ",
+      "types": [
+        "home_goods_store",
+        "clothing_store",
+        "store",
+        "point_of_interest",
+        "establishment"
+      ],
+      "user_ratings_total": 11
+    }
+  ],
+  "status": "OK"
+}
