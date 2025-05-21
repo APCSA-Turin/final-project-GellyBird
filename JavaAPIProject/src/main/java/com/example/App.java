@@ -1,15 +1,16 @@
 package com.example;
-import org.json.JSONObject;
+import java.util.Scanner; 
 /**
- * Hello world!
+ * The app :)
  *
  */
 public class App 
 {
     public static void main( String[] args ) throws Exception
     {
-        double lat =0.0; // latitude
-        double lon =0.0; // Longitude
-        // for example, 40.72532296968742, -73.94745123005052
+        Scanner scan = new Scanner(System.in);
+        System.out.println("Enter an address: ");
+        GoogleMaps.setAddress(scan.nextLine());
+        GoogleMaps.getStores();
     }
 }

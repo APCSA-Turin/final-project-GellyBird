@@ -3,6 +3,12 @@ import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.net.HttpURLConnection;
 import java.net.URL;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
+import java.util.List;
+
+import org.json.JSONArray;
 import org.json.JSONObject;
 
 /**
@@ -13,9 +19,9 @@ import org.json.JSONObject;
 public class GoogleMaps {
     private static String apiKey = "AIzaSyCT5Yc5fX2y-0SLDgqKD3jNYnjOSe4nI8o"; // The Key
     private static String address = "";
-    private static double lat = 40.72534565744101; // latitude
-    private static double lon = -73.94744810669593; // longitude
-    private static String placesApiLink = "https://maps.googleapis.com/maps/api/place/textsearch/json?query=antique,thrift,vintage&location="+lat+","+lon+"&key=AIzaSyCT5Yc5fX2y-0SLDgqKD3jNYnjOSe4nI8o"; // will update this to include search filters, should be easy. (famous last words)
+    private static double lat = 0.0; // latitude
+    private static double lon = 0.0; // longitude
+    private static String placesApiLink = "https://maps.googleapis.com/maps/api/place/textsearch/json?query=antique+thrift+vintage&location="+lat+","+lon+"&radius=100.0&key=AIzaSyCT5Yc5fX2y-0SLDgqKD3jNYnjOSe4nI8o"; // will update this to include search filters, should be easy. (famous last words)
     private static String geoApiLink = "https://maps.googleapis.com/maps/api/geocode/json?address="+address+"&key=AIzaSyCT5Yc5fX2y-0SLDgqKD3jNYnjOSe4nI8o";
 
     // GETTER METHODS
@@ -25,35 +31,58 @@ public class GoogleMaps {
     public static double getLon() {return lon;} // returns longitutde
 
     // SETTER METHODS
-    public static void setLat(double newLat) {lat=newLat;} // returns latitude
-    public static void setLon(double newLon) {lon=newLon;} // returns longitutde
-    public static void setAddress(String newAddress) {
-        newAddress.replace(' ', '+');
+    public static void setLat(double newLat) {lat=newLat;} // updates latitude
+    public static void setLon(double newLon) {lon=newLon;} // updates longitutde
+    public static void setAddress(String newAddress) throws Exception { // used for changing the entire address, formats it for using in a link and then get's the lat/lon using google geocode api
+        newAddress = newAddress.replace(' ', '+');
         address = newAddress; 
+        geoApiLink = "https://maps.googleapis.com/maps/api/geocode/json?address="+address+"&key=AIzaSyCT5Yc5fX2y-0SLDgqKD3jNYnjOSe4nI8o";
+        String jsonString = getData(geoApiLink);
+        JSONObject obj = new JSONObject(jsonString);
+        JSONArray results = obj.getJSONArray("results");
+        JSONObject resultsObj = results.getJSONObject(0);
+        JSONArray navPoints = resultsObj.getJSONArray("navigation_points");
+        JSONObject location = navPoints.getJSONObject(0).getJSONObject("location");
+        lat = location.getDouble("latitude");
+        lon = location.getDouble("longitude");
+        System.out.println("NEW ADDRESS: " + address + "\nLatitude: " + lat + "\nLongitude: " + lon);
+        placesApiLink = "https://maps.googleapis.com/maps/api/place/textsearch/json?query=antique+thrift+vintage&location="+lat+","+lon+"&radius=100.0&key=AIzaSyCT5Yc5fX2y-0SLDgqKD3jNYnjOSe4nI8o";
     }
 
-    // GET DATA (the important part)
+    // GET DATA FROM JSON (the important part)
     public static String getData(String endpoint) throws Exception {
-        /*endpoint is a url (string) that you get from an API website*/
         URL url = new URL(endpoint);
-        /*connect to the URL*/
         HttpURLConnection connection = (HttpURLConnection) url.openConnection();
-        /*creates a GET request to the API.. Asking the server to retrieve information for our program*/
         connection.setRequestMethod("GET");
-        /* When you read data from the server, it wil be in bytes, the InputStreamReader will convert it to text. 
-        The BufferedReader wraps the text in a buffer so we can read it line by line*/
         BufferedReader buff = new BufferedReader(new InputStreamReader(connection.getInputStream()));
-        String inputLine;//variable to store text, line by line
-        /*A string builder is similar to a string object but faster for larger strings, 
-        you can concatenate to it and build a larger string. Loop through the buffer 
-        (read line by line). Add it to the stringbuilder */
+        String inputLine;
         StringBuilder content = new StringBuilder();
         while ((inputLine = buff.readLine()) != null) {
             content.append(inputLine);
         }
-        buff.close(); //close the bufferreader
-        connection.disconnect(); //disconnect from server 
-        return content.toString(); //return the content as a string
+        buff.close();
+        connection.disconnect();
+        return content.toString(); 
     }
-    
+
+    // FIND STORES BASED ON LOCATION
+       public static void getStores() throws Exception {
+        String jsonString = getData(placesApiLink);
+        JSONObject obj = new JSONObject(jsonString);
+        System.out.println(geoApiLink);
+        JSONArray locations =  new JSONArray((JSONArray)obj.get("results"));
+        JSONArray sortedLocations = new JSONArray(Helpers.distanceSort(locations));
+
+         
+
+
+        System.out.println("There are " + sortedLocations.length() + " stores in your area!");
+        System.out.println("-------------------------------------------------");
+        for (int i = 0; i < sortedLocations.length(); i ++) {
+            System.out.println("Store " + (i + 1));
+            System.out.println(sortedLocations.getJSONObject(i).getString("name"));
+            System.out.println(sortedLocations.getJSONObject(i).getString("formatted_address"));
+            System.out.println("---");
+        }
+    } 
 }
