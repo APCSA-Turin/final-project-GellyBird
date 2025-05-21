@@ -21,7 +21,7 @@ public class GoogleMaps {
     private static String address = "";
     private static double lat = 0.0; // latitude
     private static double lon = 0.0; // longitude
-    private static String placesApiLink = "https://maps.googleapis.com/maps/api/place/textsearch/json?query=antique+thrift+vintage&location="+lat+","+lon+"&radius=100.0&key=AIzaSyCT5Yc5fX2y-0SLDgqKD3jNYnjOSe4nI8o"; // will update this to include search filters, should be easy. (famous last words)
+    private static String placesApiLink = "https://maps.googleapis.com/maps/api/place/textsearch/json?query=antique+thrift+vintage+"+address+"&location="+lat+","+lon+"&radius=100.0&key=AIzaSyCT5Yc5fX2y-0SLDgqKD3jNYnjOSe4nI8o"; // will update this to include search filters, should be easy. (famous last words)
     private static String geoApiLink = "https://maps.googleapis.com/maps/api/geocode/json?address="+address+"&key=AIzaSyCT5Yc5fX2y-0SLDgqKD3jNYnjOSe4nI8o";
 
     // GETTER METHODS
@@ -46,7 +46,7 @@ public class GoogleMaps {
         lat = location.getDouble("latitude");
         lon = location.getDouble("longitude");
         System.out.println("NEW ADDRESS: " + address + "\nLatitude: " + lat + "\nLongitude: " + lon);
-        placesApiLink = "https://maps.googleapis.com/maps/api/place/textsearch/json?query=antique+thrift+vintage&location="+lat+","+lon+"&radius=100.0&key=AIzaSyCT5Yc5fX2y-0SLDgqKD3jNYnjOSe4nI8o";
+        placesApiLink = "https://maps.googleapis.com/maps/api/place/textsearch/json?query=antique+thrift+vintage+"+address+"&location="+lat+","+lon+"&radius=100.0&key=AIzaSyCT5Yc5fX2y-0SLDgqKD3jNYnjOSe4nI8o";
     }
 
     // GET DATA FROM JSON (the important part)
