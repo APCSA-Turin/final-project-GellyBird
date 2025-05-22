@@ -19,5 +19,6 @@ public class App
         System.out.print("Enter an address (or say 'exit' to quit): ");
         address = scan.nextLine();
         }
+        scan.close();
     }
 }

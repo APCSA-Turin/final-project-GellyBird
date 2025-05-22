@@ -1,9 +1,5 @@
 package com.example;
-
-import java.util.ArrayList;
-
 import org.json.JSONArray;
-import org.json.JSONObject;
 
 /**
  * Helper methods for the GoogleMaps class
@@ -79,6 +75,6 @@ public class Filters {
         return locations;
     }
 
-    
+
 
 }
