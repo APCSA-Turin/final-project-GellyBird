@@ -33,23 +33,33 @@ public class GoogleMaps {
     // SETTER METHODS
     public static void setLat(double newLat) {lat=newLat;} // updates latitude
     public static void setLon(double newLon) {lon=newLon;} // updates longitutde
-    public static void setAddress(String newAddress) throws Exception { // used for changing the entire address, formats it for using in a link and then get's the lat/lon using google geocode api
-        newAddress = newAddress.replace(' ', '+');
-        address = newAddress; 
-        geoApiLink = "https://maps.googleapis.com/maps/api/geocode/json?address="+address+"&key=AIzaSyCT5Yc5fX2y-0SLDgqKD3jNYnjOSe4nI8o";
+
+    /**
+     * Used for changing the entire address, formats it for using in a link and then get's the lat/lon using google geocode api
+     * Also updates the geo and places api links to contain the new data
+     * @param newAddress
+     * @throws Exception
+     */
+    public static void setAddress(String newAddress) throws Exception {
+        newAddress = newAddress.replace(' ', '+'); // formats the address because you cannot have a space within a link
+        address = newAddress;
+        geoApiLink = "https://maps.googleapis.com/maps/api/geocode/json?address="+address+"&key=AIzaSyCT5Yc5fX2y-0SLDgqKD3jNYnjOSe4nI8o"; // Have to update the geocode API link to have the new address
+        
         String jsonString = getData(geoApiLink);
         JSONObject obj = new JSONObject(jsonString);
-        JSONArray results = obj.getJSONArray("results");
-        JSONObject resultsObj = results.getJSONObject(0);
-        JSONArray navPoints = resultsObj.getJSONArray("navigation_points");
+        JSONObject results = obj.getJSONArray("results").getJSONObject(0); // Locates the results within the JSON file
+        JSONArray navPoints = results.getJSONArray("navigation_points"); // The location I want is within navigation_points. These are the most accurate latitutde/longitude coords returned
         JSONObject location = navPoints.getJSONObject(0).getJSONObject("location");
         lat = location.getDouble("latitude");
         lon = location.getDouble("longitude");
+
         System.out.println("NEW ADDRESS: " + address + "\nLatitude: " + lat + "\nLongitude: " + lon);
-        placesApiLink = "https://maps.googleapis.com/maps/api/place/textsearch/json?query=antique+thrift+vintage+"+address+"&location="+lat+","+lon+"&radius=100.0&key=AIzaSyCT5Yc5fX2y-0SLDgqKD3jNYnjOSe4nI8o";
+        placesApiLink = "https://maps.googleapis.com/maps/api/place/textsearch/json?query=antique+thrift+vintage+"+address+"&location="+lat+","+lon+"&radius=100.0&key=AIzaSyCT5Yc5fX2y-0SLDgqKD3jNYnjOSe4nI8o"; // have to update Places API to have new address and coords
     }
 
-    // GET DATA FROM JSON (the important part)
+    /**
+     * Gets data from the endpoint and formats it into a JSON string
+     */
     public static String getData(String endpoint) throws Exception {
         URL url = new URL(endpoint);
         HttpURLConnection connection = (HttpURLConnection) url.openConnection();
@@ -65,13 +75,16 @@ public class GoogleMaps {
         return content.toString(); 
     }
 
-    // FIND STORES BASED ON LOCATION
+    /**
+     * Finds the stores that are within a certain location.
+     * Due to the way Places api works, it may sometimes give a location much further away in order to fit the 20 results per page filter.
+     * @throws Exception
+     */
        public static void getStores() throws Exception {
         String jsonString = getData(placesApiLink);
         JSONObject obj = new JSONObject(jsonString);
-        System.out.println(geoApiLink);
         JSONArray locations =  new JSONArray((JSONArray)obj.get("results"));
-        JSONArray sortedLocations = new JSONArray(Helpers.distanceSort(locations));
+        JSONArray sortedLocations = new JSONArray(Filters.closestDistanceSort(locations));
 
          
 
