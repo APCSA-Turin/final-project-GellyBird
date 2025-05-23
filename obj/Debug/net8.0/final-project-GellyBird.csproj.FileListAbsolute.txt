@@ -1,0 +1,15 @@
+/workspaces/final-project-GellyBird/bin/Debug/net8.0/final-project-GellyBird
+/workspaces/final-project-GellyBird/bin/Debug/net8.0/final-project-GellyBird.deps.json
+/workspaces/final-project-GellyBird/bin/Debug/net8.0/final-project-GellyBird.runtimeconfig.json
+/workspaces/final-project-GellyBird/bin/Debug/net8.0/final-project-GellyBird.dll
+/workspaces/final-project-GellyBird/bin/Debug/net8.0/final-project-GellyBird.pdb
+/workspaces/final-project-GellyBird/obj/Debug/net8.0/final-project-GellyBird.GeneratedMSBuildEditorConfig.editorconfig
+/workspaces/final-project-GellyBird/obj/Debug/net8.0/final-project-GellyBird.AssemblyInfoInputs.cache
+/workspaces/final-project-GellyBird/obj/Debug/net8.0/final-project-GellyBird.AssemblyInfo.cs
+/workspaces/final-project-GellyBird/obj/Debug/net8.0/final-project-GellyBird.csproj.CoreCompileInputs.cache
+/workspaces/final-project-GellyBird/obj/Debug/net8.0/final-project-GellyBird.sourcelink.json
+/workspaces/final-project-GellyBird/obj/Debug/net8.0/final-project-GellyBird.dll
+/workspaces/final-project-GellyBird/obj/Debug/net8.0/refint/final-project-GellyBird.dll
+/workspaces/final-project-GellyBird/obj/Debug/net8.0/final-project-GellyBird.pdb
+/workspaces/final-project-GellyBird/obj/Debug/net8.0/final-project-GellyBird.genruntimeconfig.cache
+/workspaces/final-project-GellyBird/obj/Debug/net8.0/ref/final-project-GellyBird.dll

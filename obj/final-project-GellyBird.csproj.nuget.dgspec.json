@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/workspaces/final-project-GellyBird/JavaAPIProject/src/main/CS/CS.csproj": {}
+    "/workspaces/final-project-GellyBird/final-project-GellyBird.csproj": {}
   },
   "projects": {
-    "/workspaces/final-project-GellyBird/JavaAPIProject/src/main/CS/CS.csproj": {
+    "/workspaces/final-project-GellyBird/final-project-GellyBird.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/workspaces/final-project-GellyBird/JavaAPIProject/src/main/CS/CS.csproj",
-        "projectName": "CS",
-        "projectPath": "/workspaces/final-project-GellyBird/JavaAPIProject/src/main/CS/CS.csproj",
+        "projectUniqueName": "/workspaces/final-project-GellyBird/final-project-GellyBird.csproj",
+        "projectName": "final-project-GellyBird",
+        "projectPath": "/workspaces/final-project-GellyBird/final-project-GellyBird.csproj",
         "packagesPath": "/home/codespace/.nuget/packages/",
-        "outputPath": "/workspaces/final-project-GellyBird/JavaAPIProject/src/main/CS/obj/",
+        "outputPath": "/workspaces/final-project-GellyBird/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/codespace/.nuget/NuGet/NuGet.Config"
