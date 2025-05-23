@@ -3,6 +3,8 @@ import java.util.Scanner;
 /**
  * The app :)
  *
+ * What needs to be added?:
+ * Print statement explaining what the app does, just for now while It's still within terminal.
  */
 public class App 
 {
