@@ -7,7 +7,6 @@ import org.json.JSONArray;
  */
 public class Filters {
 
-
         /**
          * Sorts the given list from closest to furthest away.
          * Because lat/lng uses -/+ to indicate direction, The program has to work solely with absolute values or else it will calculate the distance wrong.
@@ -28,7 +27,6 @@ public class Filters {
                 }
             }
            }
-
         for (int i = 0; i < locations.length(); i ++) {
             for (int j = i; j < locations.length(); j ++) {
                 if (Double.compare(Math.abs(addressLng - Math.abs(locations.getJSONObject(j).getJSONObject("geometry").getJSONObject("location").getDouble("lng"))),Math.abs(addressLng - Math.abs(locations.getJSONObject(i).getJSONObject("geometry").getJSONObject("location").getDouble("lng")))) < 0 ) { 
@@ -41,7 +39,7 @@ public class Filters {
         return locations;
     }
 
-            /**
+        /**
          * Sorts the given list from furthest away to closest. 
          * Because lat/lng uses -/+ to indicate direction, The program has to work solely with absolute values or else it will calculate the distance wrong.
          * First sorts by furthest latitude and then sorts by furthest longitude
@@ -62,7 +60,6 @@ public class Filters {
                 }
             }
            }
-
         for (int i = 0; i < locations.length(); i ++) {
             for (int j = i; j < locations.length(); j ++) {
                 if (Double.compare(Math.abs(addressLng - Math.abs(locations.getJSONObject(j).getJSONObject("geometry").getJSONObject("location").getDouble("lng"))),Math.abs(addressLng - Math.abs(locations.getJSONObject(i).getJSONObject("geometry").getJSONObject("location").getDouble("lng")))) > 0 ) { 
@@ -75,6 +72,22 @@ public class Filters {
         return locations;
     }
 
-
+        /**
+         * Sorts by most stars to least starts (rating)
+         * @param locations
+         * @return
+         */
+        public static JSONArray mostStarsSort (JSONArray locations) {
+            for (int i = 0; i < locations.length(); i ++) {
+            for (int j = i; j < locations.length(); j ++) {
+                if (Double.compare(locations.getJSONObject(j).getDouble("rating"), locations.getJSONObject(i).getDouble("rating")) > 1) {
+                        Object temp = locations.get(i);
+                        locations.put(i, locations.get(j));
+                        locations.put(j, temp);
+                }
+            }
+            }
+            return locations;
+        }
 
 }

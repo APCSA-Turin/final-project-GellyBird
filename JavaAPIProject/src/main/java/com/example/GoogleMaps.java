@@ -76,22 +76,11 @@ public class GoogleMaps {
      * Due to the way Places api works, it may sometimes give a location much further away in order to fit the 20 results per page filter.
      * @throws Exception
      */
-       public static void getStores() throws Exception {
+       public static JSONArray getStores() throws Exception {
         String jsonString = getData(placesApiLink);
         JSONObject obj = new JSONObject(jsonString);
         JSONArray locations =  new JSONArray((JSONArray)obj.get("results"));
-        JSONArray sortedLocations = new JSONArray(Filters.closestDistanceSort(locations));
 
-         
-
-
-        System.out.println("There are " + sortedLocations.length() + " stores in your area!");
-        System.out.println("-------------------------------------------------");
-        for (int i = 0; i < sortedLocations.length(); i ++) {
-            System.out.println("Store " + (i + 1));
-            System.out.println(sortedLocations.getJSONObject(i).getString("name"));
-            System.out.println(sortedLocations.getJSONObject(i).getString("formatted_address"));
-            System.out.println("---");
+        return locations;
         }
     } 
-}
